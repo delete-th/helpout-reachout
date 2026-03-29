@@ -1,0 +1,61 @@
+/* boundaries/UserAccountPageCSS.css */
+body {
+    background: url('boundaries/background.png') no-repeat center center/cover;
+    backdrop-filter: blur(1px);
+    color: #ffffff;           /* default text color white for visibility */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;            /* adjust as needed */
+}
+
+/* Ensure all headings are white and bold */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* Forms, labels, and text elements */
+label, p, span, td, th, input, select, button {
+    color: #ffffff;
+}
+
+/* Optional: make input/select fields slightly transparent so background shows through */
+input, select, textarea {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(2px);
+    color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+/* Tables: keep background semi-transparent */
+table {
+    background: rgba(0,0,0,0.3);
+    color: #ffffff;
+}
+
+/* Table headers slightly brighter */
+th {
+    background: rgba(0,0,0,0.45);
+}
+
+/* Buttons: semi-transparent background, white text */
+button, .create-btn, .filter-buttons button, .login-btn {
+    background: rgba(255,255,255,0.2);
+    color: #ffffff;
+}
+
+/* Buttons hover effect */
+button:hover, .create-btn:hover, .filter-buttons button:hover {
+    background: rgba(255,255,255,0.35);
+	
+tr:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+.flash-msg {
+    color: #ffb84d;   /* orange/yellow for visibility */
+    font-weight: bold;
+}
+
+
+
